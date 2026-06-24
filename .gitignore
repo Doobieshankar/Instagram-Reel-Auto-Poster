@@ -1,0 +1,40 @@
+# credentials — never commit
+.env
+tunnel_url.txt
+
+# Python environments
+venv/
+tts_venv/
+
+# Generated output files
+output/
+output/images/
+output/tts/
+*.mp4
+*.wav
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs
+*.log
+pipeline.log
+/tmp/cf.log
+
+# ComfyUI temp files (ComfyUI lives outside this repo)
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo

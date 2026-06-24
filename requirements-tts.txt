@@ -1,0 +1,10 @@
+# TTS venv (~/insta-pipeline/tts_venv)
+# Install: source ~/insta-pipeline/tts_venv/bin/activate && pip install -r requirements-tts.txt
+# NOTE: numpy must stay at 1.22.0 — TTS 0.22.0 breaks with higher versions
+
+numpy==1.22.0
+torch==2.12.1
+torchaudio==2.11.0
+TTS==0.22.0
+fastapi==0.138.0
+uvicorn==0.49.0

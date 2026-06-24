@@ -1,0 +1,16 @@
+# Main venv (~/insta-pipeline/venv)
+# Install: source ~/insta-pipeline/venv/bin/activate && pip install -r requirements.txt
+
+moviepy==1.0.3
+numpy==1.26.4
+requests==2.34.2
+fastapi==0.111.1
+fastapi-cli==0.0.27
+Pillow>=10.0
+imageio>=2.34
+imageio-ffmpeg>=0.4.9
+openai-whisper==20250625
+torch==2.12.1
+torchaudio==2.11.0
+torchvision==0.27.1
+TTS==0.22.0
